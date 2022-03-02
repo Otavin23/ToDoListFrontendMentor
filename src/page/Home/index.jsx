@@ -6,7 +6,8 @@ import { UserContext } from "../../context/AddInput"
 
 const Home = () => {
   const { setInput, input, addTask } = useContext(UserContext)
-
+  const log = ""
+  
   return (
     <S.Main>
       <S.NomeETema>
