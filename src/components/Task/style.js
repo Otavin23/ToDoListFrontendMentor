@@ -4,7 +4,7 @@ export const Container = styled.div`
 display: flex;
 align-items: center;
 padding: 1rem 0;
-border-bottom: 1px solid hsl(233, 18%, 38%);
+border-bottom: 1px solid ${props => props.theme.color.row};
 ` 
 export const Estilizacao = styled.div`
 display: flex;
@@ -24,7 +24,7 @@ button{
     }
 }
 p{
-    color:  hsl(233, 11%, 84%);
+    color: ${props => props.theme.color.textColor};
     font-size: 14px;
 }
 `

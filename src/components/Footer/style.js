@@ -5,15 +5,17 @@ export const Footer = styled.footer`
   align-items: center;
   width: 100%;
   height: 50px;
-  background-color: hsl(235, 24%, 19%);
+  background-color: ${props => props.theme.color.cardBackground};
   border-bottom-left-radius: 0.7rem;
   border-bottom-right-radius: 0.7rem;
+  box-shadow: 0px 4px 15px ${props => props.theme.color.shadow};
 `
 export const Container = styled.div`
   @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,400;1,600&display=swap");
 
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   width: 100%;
   font-size: 14px;
   color: hsl(234, 11%, 52%);

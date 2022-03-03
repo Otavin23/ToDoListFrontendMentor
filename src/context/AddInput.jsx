@@ -9,9 +9,10 @@ export function SearchInput({ children }) {
   const [filteredTasks, setFilteredTasks] = useState([])
   const [filterType, setFiltertype] = useState("all")
 
+
+  
   function addTask(name) {
     if (name === "") return
-
     const task = {
       name,
       isCompled: false,

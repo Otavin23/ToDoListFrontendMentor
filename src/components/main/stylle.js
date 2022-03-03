@@ -3,16 +3,17 @@ import styled from "styled-components";
 export const SectionDiv = styled.div`
     background-color:hsl(235, 24%, 19%);
     margin-top: 1.5rem;
-    //display: flex;
-    //align-items: center;
-    `
+    box-shadow: 0px 4px 15px ${props => props.theme.color.shadow};
+    background-color: ${props => props.theme.color.fundo};
+
+`
 
 export const Container = styled.div`
     display: flex;
     align-items: center;
     padding: 1rem 0;
     border-bottom: 1px solid hsl(233, 18%, 38%);
-    ` 
+` 
 export const Estilizacao = styled.div`
     display: flex;
     align-items: center;
