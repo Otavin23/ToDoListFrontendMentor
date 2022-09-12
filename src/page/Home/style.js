@@ -58,7 +58,7 @@ export const Container = styled.div`
     font-weight: 600;
     font-size: 14px;
     letter-spacing: 0.5px;
-    width: 350px;
+    width: 100%
 
     &::placeholder {
       color: hsl(234, 11%, 52%);
